@@ -1,7 +1,7 @@
 body{
     background-color: rgb(20, 20, 20);
     font-family: 'Poppins';
-
+    touch-action: pan-y;
 }
 
 .container{
