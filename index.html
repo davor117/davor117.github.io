@@ -144,11 +144,7 @@
     var info = document.getElementById("contact-me-list");
 
     button.addEventListener("click", function() {
-    if (info.style.display === "none") {
-      info.style.display = "block";
-    } else {
-      info.style.display = "none";
-    }
+    info.classList.toggle('show');
   });
 </script>    
 </body>
